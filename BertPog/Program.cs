@@ -11,7 +11,11 @@ namespace BertPog
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");
-            Console.WriteLine($"Nice to meet you, {Console.ReadLine()}!");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Nice to meet you, {name}!");
+            Console.WriteLine($"How was your day, {name}?");
+            Console.ReadLine();
+            Console.WriteLine("Don't care LOL");
 
             Console.ReadLine();
         }
